@@ -1,3 +1,4 @@
 export enum StyleConstants {
-  APP_INTRO_GROUND = "#804815",
+  WHITE_COLOR = "#ffffff",
+  APP_INTRO_GROUND = "#796180",
 }

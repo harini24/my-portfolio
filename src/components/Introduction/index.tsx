@@ -8,25 +8,47 @@ const IntroductionContainer = styled(Box)(() => ({
   justifyContent: "center",
   flexDirection: "column",
 }));
-const IntroInfoWrapper = styled(Box)(() => ({
-  padding: 40,
-  fontSize: "3em",
+const IntroInfoWrapper = styled(Box)(({ theme }) => ({
+  padding: 80,
+  fontSize: "2.5em",
   flexGrow: 1,
   display: "flex",
-  alignItems: "center",
+  flexDirection: "column",
+  justifyContent: "center",
+  width: "60%",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "2em",
+    padding: 20,
+  },
 }));
+const ReadMoreWrapper = styled(Box)(({ theme }) => ({
+  "& button": {
+    border: "none",
+    background: StyleConstants.APP_INTRO_GROUND,
+    color: StyleConstants.WHITE_COLOR,
+    padding: 10,
+    borderRadius: 4,
+  },
+}));
+const Info = styled(Box)(() => ({}));
 const IntroFooterWrapper = styled(Box)(() => ({
   height: "35%",
   background: StyleConstants.APP_INTRO_GROUND,
+  borderTopLeftRadius: "95% 75%",
 }));
 export const Introduction = () => {
   return (
     <IntroductionContainer>
       <IntroInfoWrapper>
-        Hi my name is Harini
-        <br />I am an react developer
+        <Info>
+          Hi my name is Harini
+          <br />I am an react developer
+        </Info>
+        <ReadMoreWrapper>
+          <button>Read More</button>
+        </ReadMoreWrapper>
       </IntroInfoWrapper>
-      <IntroFooterWrapper></IntroFooterWrapper>
+      {/* <IntroFooterWrapper></IntroFooterWrapper> */}
     </IntroductionContainer>
   );
 };
