@@ -1,0 +1,31 @@
+[
+  {
+    "span": "2021 September -  current",
+    "company": "Securin",
+    "linkedIn": "https://www.linkedin.com/company/securin/",
+    "progress": [
+      {
+        "role": "Associate Software Engineer - 2",
+        "span": "2022 April - current",
+        "descriptions": ["test jdjksfhds q","sdskhdush shdushfud udhfuhdsfyuds dfyudysfd ydfysdyu"]
+      },
+      {
+        "role": "Associate Software Engineer - 1",
+        "span": "2021 September - 2022 April",
+        "descriptions": ["hgdyusygdtys yusdygsgtydtgsy fsdjhdsf"]
+      }
+    ]
+  },
+  {
+    "span": "2019 July - 2021 September",
+    "company": "Verizon",
+    "linkedIn": "https://www.linkedin.com/company/verizon/",
+    "progress": [
+      {
+        "role": "Software development Engrg",
+        "span": "2019 July - 2021 September",
+        "descriptions": ["hgdyusygdtys yusdygsgtydtgsy fsdjhdsf"]
+      }
+    ]
+  }
+]

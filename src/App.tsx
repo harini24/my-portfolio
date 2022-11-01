@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutMe } from "./components/AboutMe";
+import ExperienceContainer from "./components/Experience";
 import { Introduction } from "./components/Introduction";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Introduction />
       <AboutMe />
+      <ExperienceContainer />
     </div>
   );
 }

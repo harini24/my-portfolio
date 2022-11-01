@@ -2,12 +2,13 @@ import { styled, Box } from "@mui/material";
 import { StyleConstants } from "../../styles/StyleConstants";
 const AboutMeContainer = styled(Box)(() => ({
   height: "40vh",
-  width: "100vw",
+  width: "100%",
   display: "flex",
   justifyContent: "space-evenly",
   flexDirection: "column",
   background: StyleConstants.APP_INTRO_GROUND,
   padding: 20,
+  boxSizing:'border-box'
 }));
 const TitleWrapper = styled(Box)(() => ({
   alignSelf: "center",

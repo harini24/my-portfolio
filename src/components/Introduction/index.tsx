@@ -3,7 +3,7 @@ import { StyleConstants } from "../../styles/StyleConstants";
 
 const IntroductionContainer = styled(Box)(() => ({
   height: "100vh",
-  width: "100vw",
+  width: "100%",
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
